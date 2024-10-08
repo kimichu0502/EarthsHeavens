@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .blank{
+    width: 100%;
+    position: fixed;
+    font-family:"Poppins";
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    background-color:#77c077;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .title::after{
+   content:"." ;
+    color: #111D4A;
+  }
+  
+  .pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #7EBDC2; 
+    position: fixed; 
+    padding: 10px;
+    font-family: 'Lora', serif;
+  }
+  
+  .head{ 
+    text-decoration: none;
+    color: black;
+    font-family: 'Lora', serif;
+  }
+  
+  .head:hover{
+    background-color:#111D4A;
+    border-radius:20px ;
+    border-color:#111D4A;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    color:white;
+    transition: ease-out;
+  }
+  
+  #submit {
+    background-color: black;
+    border-radius: 20px;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-width: 1px;
+    float: left;
+    font-family: 'Lora', serif;
+  }
+  
+  #reset {
+    background-color:black;
+    border-radius: 20px;
+    border-color:black;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    float: right;
+    font-family: 'Lora', serif;
+  }
+  
+  #submit:hover {
+      background-color:#77c077;
+      border-color:#77c077;
+  }
+  
+  #reset:hover {
+      background-color:#5B3000;
+      border-color:#5B3000;
+  }
+  
+  #txt {
+  border-radius: 10px;
+  border-color:white;
+  margin-bottom:30px;
+  border-width: 1px;
+  }
+  
+  td {
+      color: black;
+      font-weight: bold;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .row1 ::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column1 {
+    float: left;
+    width: 10% ;
+    padding: 5px;
+  }
+  .sign::after{
+    content:"." ;
+    color: #77c077;
+  }
+  
+  .color img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  }
+  
+  .color img:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 0.5s ease;
+  }
+  
+  .container {
+    background-attachment: fixed; 
+    border-color: white;
+    border-radius: 23px;
+    background-color: white;
+    padding: 1em 3.5em;
+  }
+  
+  .sign {
+    font-family: 'Cinzel', serif;
+  }

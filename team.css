@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .blank{
+    width: 100%;
+    position: fixed;
+    font-family:"Poppins";
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    background-color:#77c077;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .title::after{
+    content:"." ;
+    color: #111D4A;
+  }
+  
+  .pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #7EBDC2; 
+    position: fixed; 
+    padding: 10px;
+    font-family: 'Lora', serif;
+  }
+  
+  .head{ 
+    text-decoration: none;
+    color: black ;
+  }
+  
+  .head:hover{
+    background-color:#111D4A;
+    border-radius:20px ;
+    border-color:#111D4A;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    color:white;
+    transition: ease-out;
+  }
+  
+  #base { 
+    text-align: center ; 
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+  }
+  
+  .column {
+    float: left;
+    width: 32%;
+    padding:5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .imtext {
+    color:white;
+      text-align: center ; 
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 26px;
+    background-color:#111D4A;
+    border-radius:20px;
+    padding: 10px;
+    font-family: 'Lora', serif;
+  }
+  
+  #container {
+    background-attachment: fixed; 
+    border-color: white;
+    border-radius: 23px;
+    background-color: white;
+    padding: 1em 3.5em;
+  }
+  
+  .team{
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .team::after {
+    content: ".";
+    color:#77c077;
+  }
+  

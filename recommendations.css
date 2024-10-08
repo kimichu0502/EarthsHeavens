@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  
+  
+  .blank{
+    width: 100%;
+    position: fixed;
+    font-family:"Poppins";
+  }
+  
+  .titl {
+    display: flex;
+    justify-content: center;
+    background-color:#77c077;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .titl::after{
+    content:"." ;
+    color: #111D4A;
+  }
+  
+  .pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #7EBDC2; 
+    position: fixed; 
+    padding: 10px;
+    font-family: 'Lora', serif;
+  }
+  
+  .head{ 
+    text-decoration: none;
+    color: black ;
+  }
+  
+  .head:hover{
+     background-color:#111D4A;
+     border-radius:20px ;
+     border-color:#111D4A;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-right:20px;
+     padding-left:20px;
+     color:white;
+     transition: ease-out;
+  }
+  
+  .title {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .description {
+    background-color: #77c077;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mountEverest {
+    position: relative;
+  }
+  
+  .mountIMG {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .mountOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+  
+  .mountOverlay--blur {
+    backdrop-filter: blur(5px)
+  }
+  
+  .mountOverlay:hover {
+    opacity: 1;
+  }
+  
+  .mountOverlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+  
+  .mountOverlay:hover > * {
+    transform: translateY(0);
+  }
+  
+  .mountTitle {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    font-weight: bbold
+  }
+  
+  .mountDes {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    margin-top: 0.25em;
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+  }

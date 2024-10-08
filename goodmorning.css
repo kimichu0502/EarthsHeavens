@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .blank{
+    width: 100%;
+    position: fixed;
+    font-family:"Poppins";
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    background-color:#77c077;
+    color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+  }
+  
+  .title::after{
+    content:"." ;
+    color: #111D4A;
+  
+  }
+  
+  .pages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #7EBDC2; 
+    position: fixed; 
+    padding: 10px;
+    font-family: 'Lora', serif;
+  }
+  
+  .head{ 
+    text-decoration: none;
+    color: black ;
+  }
+  
+  .head:hover{
+     background-color:#111D4A;
+     border-radius:20px ;
+     border-color:#111D4A;
+     padding-top:10px;
+     padding-bottom:10px;
+     padding-right:20px;
+     padding-left:20px;
+     color:white;
+     transition: ease-out;
+  }
+  
+  .welcome{
+     margin-bottom: 150px;
+     margin-top: 20px;
+     text-align:center;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+     background-image: url(https://preview.redd.it/ekvvhftt2wp71.jpg?auto=webp&s=089d40bcbd41f16781de5827ea62ffee13e8e767);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Cinzel', serif;
+  }
+  
+  .goals{
+    background-attachment: fixed; 
+    border-color: white;
+    border-radius: 23px;
+    background-color: white;
+    padding: 1em 3.5em;
+  }
+  
+  .column{
+    float: left;
+    width: 32%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .imtext {
+    text-align: center;
+    color: white ;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 26px;
+    background-color: #77c077;
+    border-radius: 20px;
+    padding: 5px;
+    font-family: 'Lora', serif;
+  }
+  
+  h3::after {
+    content: ".";
+    color: #77c077;
+  }
+  
+  h3::before {
+    content: ".";
+    color:#77c077;
+  }
+  
+  /*What can you do to take action?*/
+  .firstext{
+    color:#111D4A;
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+  }
+  
+  .firstext::after {
+    content: ".";
+    color:#77c077;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .img{
+    width:300px ;
+    height:400px;   
+    object-fit: cover
+  }
+  
